@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="esercizio 2">
+        <meta name="keywords" content="esercizio 2">
+        <title>Services</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">        
+    </head>
+    <body>
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <!-- contiene gli elementi che devono essere visibili anche quando la barra è minimizzata -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                    </div>
+
+                    <!-- Elementi della barra -->
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="about.html">About</a></li>            
+                            <li class="active"><a href="services.html">Services</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li class="dropdown">
+
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Other Pages <b class="caret"></b>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                <li><a href="faq.html">Faq</a></li>
+                                <li><a href="pricing.html">Pricing Table</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container">
+                <div class="page-header">
+                    <h1>Services <small>SubHeading</small></h1>
+                </div>
+
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Services</li>
+                </ol>
+
+                <img src="http://via.placeholder.com/1200x300" class="img-responsive" width="100%">
+
+                <div class="page-header">
+                    <h1>Services panel</h1>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="panel panel-default service-panel">
+                            <div class="panel-heading">
+                                <span class="fa-5x fa-stack">
+                                    <i class="fa fa-circle text-primary fa-stack-2x"></i>
+                                    <i class="fa fa-tree fa-inverse fa-stack-1x"></i>
+                                </span>
+                            </div>
+                            <div class="panel-body">
+                                <h4>Service One</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="panel panel-default service-panel">
+                            <div class="panel-heading">
+                                <span class="fa-5x fa-stack">
+                                    <i class="fa fa-circle text-primary fa-stack-2x"></i>
+                                    <i class="fa fa-car fa-inverse fa-stack-1x"></i>
+                                </span>
+                            </div>
+                            <div class="panel-body">
+                                <h4>Service Two</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="panel panel-default service-panel">
+                            <div class="panel-heading">
+                                <span class="fa-5x fa-stack">
+                                    <i class="fa fa-circle text-primary fa-stack-2x"></i>
+                                    <i class="fa fa-support fa-inverse fa-stack-1x"></i>
+                                </span>
+                            </div>
+                            <div class="panel-body">
+                                <h4>Service Three</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="panel panel-default service-panel">
+                            <div class="panel-heading">
+                                <span class="fa-5x fa-stack">
+                                    <i class="fa fa-circle text-primary fa-stack-2x"></i>
+                                    <i class="fa fa-database fa-inverse fa-stack-1x"></i>
+                                </span>
+                            </div>
+                            <div class="panel-body">
+                                <h4>Service Four</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page-header">
+                    <h1>Services tabs</h1>
+                </div>
+
+                <!-- Tab -->
+                <div>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs nav-justified" role="tablist">
+                        <li role="presentation" class="active"><a href="#one" aria-controls="one" role="tab" data-toggle="tab"><i class="fa fa-tree"></i> Service One</a></li>
+                        <li role="presentation"><a href="#two" aria-controls="two" role="tab" data-toggle="tab"><i class="fa fa-car"></i> Service Two</a></li>
+                        <li role="presentation"><a href="#three" aria-controls="three" role="tab" data-toggle="tab"><i class="fa fa-support"></i> Service Three</a></li>
+                        <li role="presentation"><a href="#four" aria-controls="four" role="tab" data-toggle="tab"><i class="fa fa-database"></i> Service Four</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="one">
+                            <h4>Service One</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur,
+                                 laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, 
+                                 consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni 
+                                 itaque autem neque velit in. At quia quaerat asperiores.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur,
+                                 laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, 
+                                 consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni 
+                                 itaque autem neque velit in. At quia quaerat asperiores.
+                            </p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="two">
+                            <h4>Service Two</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur,
+                                 laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, 
+                                 consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni 
+                                 itaque autem neque velit in. At quia quaerat asperiores.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur,
+                                 laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, 
+                                 consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni 
+                                 itaque autem neque velit in. At quia quaerat asperiores.
+                            </p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="three">
+                            <h4>Service Three</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur,
+                                 laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, 
+                                 consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni 
+                                 itaque autem neque velit in. At quia quaerat asperiores.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur,
+                                 laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, 
+                                 consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni 
+                                 itaque autem neque velit in. At quia quaerat asperiores.
+                            </p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="four">
+                            <h4>Service Four</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur,
+                                 laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, 
+                                 consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni 
+                                 itaque autem neque velit in. At quia quaerat asperiores.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur,
+                                 laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, 
+                                 consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni 
+                                 itaque autem neque velit in. At quia quaerat asperiores.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="page-header">
+                    <h1>Services list</h1>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="col-md-3 col-xs-3">
+                        <span class="fa-2x fa-stack">
+                            <i class="fa fa-circle text-primary fa-stack-2x"></i>
+                            <i class="fa fa-tree fa-inverse fa-stack-1x"></i>
+                        </span>
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <h4>Service One</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.
+                        </p>
+                    </div>                
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="col-md-3 col-xs-3">
+                        <span class="fa-2x fa-stack">
+                            <i class="fa fa-circle text-primary fa-stack-2x"></i>
+                            <i class="fa fa-car fa-inverse fa-stack-1x"></i>
+                        </span>
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <h4>Service Two</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.
+                        </p>
+                    </div>                
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="col-md-3 col-xs-3">
+                        <span class="fa-2x fa-stack">
+                            <i class="fa fa-circle text-primary fa-stack-2x"></i>
+                            <i class="fa fa-support fa-inverse fa-stack-1x"></i>
+                        </span>
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <h4>Service Three</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.
+                        </p>
+                    </div>                
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="col-md-3 col-xs-3">
+                        <span class="fa-2x fa-stack">
+                            <i class="fa fa-circle text-primary fa-stack-2x"></i>
+                            <i class="fa fa-database fa-inverse fa-stack-1x"></i>
+                        </span>
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <h4>Service Four</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.
+                        </p>
+                    </div>                
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="col-md-3 col-xs-3">
+                        <span class="fa-2x fa-stack">
+                            <i class="fa fa-circle text-primary fa-stack-2x"></i>
+                            <i class="fa fa-bomb fa-inverse fa-stack-1x"></i>
+                        </span>
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <h4>Service Five</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.
+                        </p>
+                    </div>                
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="col-md-3 col-xs-3">
+                        <span class="fa-2x fa-stack">
+                            <i class="fa fa-circle text-primary fa-stack-2x"></i>
+                            <i class="fa fa-bank fa-inverse fa-stack-1x"></i>
+                        </span>
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <h4>Service Six</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.
+                        </p>
+                    </div>                
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="col-md-3 col-xs-3">
+                        <span class="fa-2x fa-stack">
+                            <i class="fa fa-circle text-primary fa-stack-2x"></i>
+                            <i class="fa fa-paper-plane fa-inverse fa-stack-1x"></i>
+                        </span>
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <h4>Service Seven</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.
+                        </p>
+                    </div>                
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="col-md-3 col-xs-3">
+                        <span class="fa-2x fa-stack">
+                            <i class="fa fa-circle text-primary fa-stack-2x"></i>
+                            <i class="fa fa-space-shuttle fa-inverse fa-stack-1x"></i>
+                        </span>
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <h4>Service Eight</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.
+                        </p>
+                    </div>                
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="col-md-3 col-xs-3">
+                        <span class="fa-2x fa-stack">
+                            <i class="fa fa-circle text-primary fa-stack-2x"></i>
+                            <i class="fa fa-recycle fa-inverse fa-stack-1x"></i>
+                        </span>
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <h4>Service Nine</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.
+                        </p>
+                    </div>                
+                </div>
+                
+                <div class="clear"></div>
+                <hr>
+                <footer>
+                    <p>Copyright &copy; Your Website 2014</p>
+                </footer>
+            </div>
+
+
+
+             <!-- JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- JAVASCRIPT -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>      

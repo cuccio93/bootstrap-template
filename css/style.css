@@ -1,0 +1,57 @@
+body{
+    padding-top: 50px;
+}
+
+.img-hover:hover{
+    opacity:0.8;
+}
+
+.img-hover{
+    margin-bottom:20px;
+}
+
+.clear{
+    clear:both;
+}
+
+.panel1{
+    padding-left:0;
+}
+
+.panel3{
+    padding-right:0;
+}
+
+.thumbnail .caption h5{
+    color:#AAA;
+}
+
+footer{
+    margin:50px 0;
+}
+
+.service-panel{
+    text-align: center;
+}
+
+.btn-margin{
+    margin-top:20px;
+}
+
+.list-group{
+    text-align:center;
+}
+
+.price{
+    font-size: 50px;
+}
+
+.price sup{
+    font-size:20px;
+    top: -20px;
+    left: 2px;
+}
+
+.header-price{
+    text-align:center;
+}
